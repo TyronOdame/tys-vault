@@ -9,15 +9,21 @@ const Navbar = () => {
 
       <div className="nav-sections">
         <div id="about-me-container">
-          <a href="#about">About Me</a>
+          <a id="about-title" href="#about">
+            About Me
+          </a>
         </div>
 
         <div id="project-container">
-          <a href="#projects">Projects</a>
+          <a id="project-title" href="#projects">
+            Projects
+          </a>
         </div>
 
         <div id="socials-container">
-          <a href="#socials">Socials</a>
+          <a id="socials-title" href="#socials">
+            Socials
+          </a>
         </div>
       </div>
     </nav>

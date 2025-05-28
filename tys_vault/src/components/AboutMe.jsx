@@ -14,7 +14,13 @@ const AboutMe = () => {
           tech began with a fascination for how things work, and it has evolved
           into a career where I can build and improve digital experiences.
         </p>
-        <div className="about-me-pics"></div>
+        <div className="about-me-pics-container">
+          <ul>
+            <li className="each-about-pic-card">
+              <img src="" />
+            </li>
+          </ul>
+        </div>
         <p>
           When I'm not coding, you can find me learning about new technologies
           or playing sports like lacrosse and soccer. I'm always eager to learn
